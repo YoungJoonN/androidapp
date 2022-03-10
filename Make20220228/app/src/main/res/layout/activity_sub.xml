@@ -8,7 +8,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send1"
+        android:text="Send2"
         android:textAllCaps="false"
         android:textSize="20sp"/>
     <Button
