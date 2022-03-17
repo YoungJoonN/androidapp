@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send3"
+        android:id="@+id/Btn3"
         android:textAllCaps="false"/>
 
 
