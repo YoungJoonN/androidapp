@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String str = intent.getExtras().getString("키");
         Log.d("로그",str);
+        EditText editText = findViewById(R.id.edit_text);
+        editText.setText(str);
+        //((EditText)findViewById(R.id.edit_text)).setText(str);
         // 38:08
+        // 1:01:18
     }
 
     @Override
