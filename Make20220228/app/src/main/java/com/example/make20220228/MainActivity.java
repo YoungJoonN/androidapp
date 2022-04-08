@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //((EditText)findViewById(R.id.edit_text)).setText(str);
         // 38:08
         // 1:01:18
+        // 코틀린 문법 kotlin
     }
 
     @Override
